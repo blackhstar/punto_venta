@@ -18,7 +18,7 @@ class Manager(Tk):
             frame = i(self.container , self)
             self.frames[i] = frame
 
-        self.show_frame(Container)
+        self.show_frame(Login)
 
     def show_frame(self , frame_class, user=None):
         frame = self.frames[frame_class]
