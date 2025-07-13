@@ -19,6 +19,7 @@ class Manager(Tk):
             self.frames[i] = frame
 
         self.show_frame(Login)
+        #self.show_frame(Container)
 
     def show_frame(self , frame_class, user=None):
         frame = self.frames[frame_class]
